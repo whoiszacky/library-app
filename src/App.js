@@ -1,10 +1,12 @@
 import React from 'react';
-import LibraryList from '../src/components/LibraryList';
+import ReactDOM from 'react-dom';
+import Kirjasto from '../src/components/LibraryList';
+import './components/style.css';
 
 function App() {
   return (
     <div className="App">
-      <LibraryList />
+      <Kirjasto />
     </div>
   );
 }

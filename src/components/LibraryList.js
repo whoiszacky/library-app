@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './LibraryList.css';
+import '../components/style.css';
 
-const LibraryList = () => {
+const Kirjasto = () => {
   const [libraries, setLibraries] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -53,4 +53,4 @@ const LibraryList = () => {
   );
 };
 
-export default LibraryList;
+export default Kirjasto;
